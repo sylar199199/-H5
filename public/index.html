@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google" value="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>logo.ico">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//www.ilot.ng">
+    <link rel="dns-prefetch" href="//api.ilot.ng">
+
+    <title>iLOT</title>
+
+    <!--appsflyer-->
+    <script>
+      !function(t,e,n,s,a,c,i,o,p){t.AppsFlyerSdkObject=a,t.AF=t.AF||function(){
+        (t.AF.q=t.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))},
+        t.AF.id=t.AF.id||i,t.AF.plugins={},o=e.createElement(n),p=e.getElementsByTagName(n)[0],o.async=1,
+        o.src="https://websdk.appsflyer.com?"+(c.length>0?"st="+c.split(",").sort().join(",")+"&":"")+(i.length>0?"af_id="+i:""),
+        p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","pba",{pba: {webAppId: "e9789d80-bf4a-4dc8-ae91-409c6fa5ed55"}})
+    </script>
+    
+  </head>
+
+  <body>
+
+    <div id="app">
+    </div>
+
+    <!-- firebase 集成 -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-app.js"></script>
+
+    <!--TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries-->
+    <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-analytics.js"></script>
+
+    <!-- Add the standard Performance Monitoring library -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-performance.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCnXcYHqF0ZkRUf32juA3iaak-TGBuMNV0",
+        authDomain: "ilot-platform.firebaseapp.com",
+        projectId: "ilot-platform",
+        storageBucket: "ilot-platform.appspot.com",
+        messagingSenderId: "162900212373",
+        appId: "1:162900212373:web:b8d5e8d9fc4586d199f99c",
+        measurementId: "G-09B7E67RGD"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+
+      // Initialize Performance Monitoring and get a reference to the service
+      var perf = firebase.performance();
+
+    </script>
+    <!--app端下载app时启动友盟超链 不要删除-->
+    <script type="text/javascript" src="https://g.alicdn.com/jssdk/u-link/index.min.js"></script>
+<!--    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v3.3&appId=340006484186715&autoLogAppEvents=1"></script>-->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v11.0&appId=1071128300081952&autoLogAppEvents=1" nonce="W6H0QWuG"></script>
+  </body>
+</html>

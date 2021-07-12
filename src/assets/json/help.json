@@ -1,0 +1,352 @@
+[
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 1,
+    "specifiers": {},
+    "marketName": "1x2",
+    "help": "Which team will win the match. Overtime not included."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 18,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "Total",
+    "help": "Predict whether the total number of goals scored in regular time is over/under a given line.\nQuarter line (0.75; 1.25; 1.75 etc.) can be settled as won, lost or half won/half lost while the other half of the stake is returned. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. Whole line (1; 2; 3 etc.) can be settled as won, lost or void."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 14,
+    "specifiers": "{\"hcp\":\"\",}",
+    "marketName": "Handicap {hcp}",
+    "help": "Predict the winner in regular time taking in consideration the handicap in brackets."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 16,
+    "specifiers": "{\"hcp\":\"\",}",
+    "marketName": "Handicap",
+    "help": "Predict the winner in regular time taking in consideration the handicap in brackets. Quarter ball (0.25; 0.75; 1.25 etc.) advantage can be settled as won,lost or half won/half lost while the other half of the stake is returned. Half ball (0.5; 1.5; 2.5 etc.) advantage can be settled as won or lost. Whole ball (1; 2; 3 etc.) advantage can be settled as won, lost or void."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 11,
+    "specifiers": {},
+    "marketName": "Draw no bet",
+    "help": "Predict the winner of the match. If the teams draw, the selection will be voided."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 10,
+    "specifiers": {},
+    "marketName": "Double chance",
+    "help": "Predict the match result combining two of the three possible outcomes"
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 47,
+    "specifiers": {},
+    "marketName": "Halftime/fulltime",
+    "help": "Predict the result at the end of the 1st half and the final result at regular time."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 29,
+    "specifiers": {},
+    "marketName": "Both teams to score",
+    "help": "Predict whether both teams will score in the match at regular time. *Yes (GG both teams score) *No (NG any team not to score)."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 45,
+    "specifiers": {},
+    "marketName": "Correct score",
+    "help": "Predict the correct score at the end of regular time."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 8,
+    "specifiers": "{\"goalnr\":\"\",}",
+    "marketName": "{!goalnr} goal",
+    "help": "Predict which team will score the 1st goal in the match."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 26,
+    "specifiers": {},
+    "marketName": "Odd/even",
+    "help": "Predict whether the total number of goals in the match will be odd or even. No goal counts as even."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 23,
+    "specifiers": "{\"variant\":\"\",}",
+    "marketName": "{$competitor1} exact goals",
+    "help": "Predict the exact number of goals scored by Home team in regular time"
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 24,
+    "specifiers": "{\"variant\":\"\",}",
+    "marketName": "{$competitor2} exact goals",
+    "help": "Predict the exact number of goals scored by Away team in regular time"
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 25,
+    "specifiers": "{\"variant\":\"\",}",
+    "marketName": "Goal range",
+    "help": "Predict the range of goals scored at regular time."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 166,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "Total corners",
+    "help": "Predict whether the total number of corners at regular time is over/under a given line."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 162,
+    "specifiers": {},
+    "marketName": "Corner 1x2",
+    "help": "Predict which team will get most corners at regular time."
+  },
+  {
+    "sportId": "sr:sport:1",
+    "marketId": 139,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "Total bookings",
+    "help": "Predict whether the total number of bookings given in the regular time is over/under a given line. *Yellow Card = 1 booking, *Red Card = 2 bookings. The second Yellow Card for a player which leads to a Red Card is not considered."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 219,
+    "specifiers": {},
+    "marketName": "Winner (incl. overtime)",
+    "help": "Which team will win the match. Overtime included."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 225,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "Total (incl. overtime)",
+    "help": "Predict whether the total number of points scored in the match is over/under a given line. Overtime included."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 223,
+    "specifiers": "{\"hcp\":\"\",}",
+    "marketName": "Handicap (incl. overtime)",
+    "help": "Predict the winner taking in consideration the handicap in brackets. Overtime included."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 1,
+    "specifiers": {},
+    "marketName": "1x2",
+    "help": "Which team will win the match. Overtime not included."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 47,
+    "specifiers": {},
+    "marketName": "Halftime/fulltime",
+    "help": "Predict the result at the end of the 1st Half and the final result at regular time."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 60,
+    "specifiers": {},
+    "marketName": "1st half - 1x2",
+    "help": "Which team will win the 1st Half."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 66,
+    "specifiers": "{\"hcp\":\"\",}",
+    "marketName": "1st half - handicap",
+    "help": "Predict the winner of the 1st Half taking in consideration the handicap in brackets."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 74,
+    "specifiers": {},
+    "marketName": "1st half - odd/even",
+    "help": "Predict whether the total number of points in the 1st Half will be odd or even."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 69,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "1st half - {$competitor1} total",
+    "help": "Predict whether the total number of points scored by Home team in 1st half is over/under a given line."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 70,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "1st half - {$competitor2} total",
+    "help": "Predict whether the total number of points scored by Away team in 1st half is over/under a given line."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 235,
+    "specifiers": "{\"quarternr\":\"\",}",
+    "marketName": "{!quarternr} quarter - 1x2",
+    "help": "Which team will win the Xth quarter."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 303,
+    "specifiers": "{\"quarternr\":\"\",\"hcp\":\"\",}",
+    "marketName": "{!quarternr} quarter - handicap",
+    "help": "Predict the winner of the Xth quarter taking in consideration the handicap in brackets."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 756,
+    "specifiers": "{\"quarternr\":\"\",\"total\":\"\",}",
+    "marketName": "{!quarternr} quarter - {$competitor1} total",
+    "help": "Predict whether the total number of points scored by Home team in Xth quarter is over/under a given line."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 757,
+    "specifiers": "{\"quarternr\":\"\",\"total\":\"\",}",
+    "marketName": "{!quarternr} quarter - {$competitor2} total",
+    "help": "Predict whether the total number of points scored by Away team in Xth quarter is over/under a given line."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 304,
+    "specifiers": "{\"quarternr\":\"\",}",
+    "marketName": "{!quarternr} quarter - odd/even",
+    "help": "Predict whether the total number of points in the Xth quarter will be odd or even."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 227,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "{$competitor1} total (incl. overtime)",
+    "help": "Predict whether the total number of points scored by Home team is over/under a given line. Overtime included."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 228,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "{$competitor2} total (incl. overtime)",
+    "help": "Predict whether the total number of points scored by Away team is over/under a given line. Overtime included."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 229,
+    "specifiers": {},
+    "marketName": "Odd/even (incl. overtime)",
+    "help": "Predict whether the total number of points in the match will be odd or even. Overtime included."
+  },
+  {
+    "sportId": "sr:sport:2",
+    "marketId": 290,
+    "specifiers": "{\"variant\":\"\",}",
+    "marketName": "Winning margin (incl. overtime)",
+    "help": "Predict by how many points the winning team will win the match. Overtime included."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 186,
+    "specifiers": {},
+    "marketName": "Winner",
+    "help": "Who will win the match."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 189,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "Total games",
+    "help": "Predict whether the total number of games is over/under a given line. A tiebreak is regarded as a game."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 187,
+    "specifiers": "{\"hcp\":\"\",}",
+    "marketName": "Game handicap",
+    "help": "The winner of the match adding or subtracting the indicated game spread to the final result."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 204,
+    "specifiers": "{\"setnr\":\"\",\"total\":\"\",}",
+    "marketName": "{!setnr} set - total games",
+    "help": "Predict whether the total number of games at the set is over/under a given line. A tiebreak is regarded as a game."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 188,
+    "specifiers": "{\"hcp\":\"\",}",
+    "marketName": "Set handicap",
+    "help": "The winner of the match adding or subtracting the indicated set spread to the final result."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 202,
+    "specifiers": "{\"setnr\":\"\",}",
+    "marketName": "{!setnr} set - winner",
+    "help": "Who will win the set."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 207,
+    "specifiers": "{\"setnr\":\"\",}",
+    "marketName": "{!setnr} set - correct score",
+    "help": "The correct score in the set."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 203,
+    "specifiers": "{\"setnr\":\"\",\"hcp\":\"\",}",
+    "marketName": "{!setnr} set - game handicap",
+    "help": "The winner of the set adding or subtracting the indicated game spread to the final result."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 196,
+    "specifiers": "{\"variant\":\"\",}",
+    "marketName": "Exact sets",
+    "help": "The exact number of sets played in the match."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 199,
+    "specifiers": "{\"variant\":\"\",}",
+    "marketName": "Correct score",
+    "help": "The correct score of the match in terms of sets won by each player."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 198,
+    "specifiers": {},
+    "marketName": "Odd/even games",
+    "help": "Predict whether the total number of games played in the match will be odd or even."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 18,
+    "specifiers": "{\"total\":\"\",}",
+    "marketName": "Total",
+    "help": "Predict whether the total number of goals scored in regular time is over/under a given line.\nQuarter line (0.75; 1.25; 1.75 etc.) can be settled as won, lost or half won/half lost while the other half of the stake is returned. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. Whole line (1; 2; 3 etc.) can be settled as won, lost or void."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 14,
+    "specifiers": "{\"hcp\":\"\",}",
+    "marketName": "Handicap {hcp}",
+    "help": "Predict the winner in regular time taking in consideration the handicap in brackets."
+  },
+  {
+    "sportId": "sr:sport:5",
+    "marketId": 16,
+    "specifiers": "{\"hcp\":\"\",}",
+    "marketName": "Handicap",
+    "help": "Predict the winner in regular time taking in consideration the handicap in brackets. Quarter ball (0.25; 0.75; 1.25 etc.) advantage can be settled as won,lost or half won/half lost while the other half of the stake is returned. Half ball (0.5; 1.5; 2.5 etc.) advantage can be settled as won or lost. Whole ball (1; 2; 3 etc.) advantage can be settled as won, lost or void."
+  }
+]

@@ -1,0 +1,4 @@
+.D_Store
+dist/
+node_modules/
+src/components/common/LMT/

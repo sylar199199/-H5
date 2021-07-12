@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFB640" offset="0%"></stop>
+            <stop stop-color="#FF5D27" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="" transform="translate(-920.000000, -524.000000)">
+            <g id="" transform="translate(920.000000, 524.000000)">
+                <g id="">
+                    <use fill="#D8D8D8" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <g id="" transform="translate(3.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M1.26501454,4.52339407 L4.35252036,6.80495153 L11.9331597,0.232744476 C11.9331597,0.232744476 12.4019826,-0.223078757 12.8699803,0.141081805 C12.9634179,0.232744476 13.1502933,0.50690245 12.7757174,0.963539449 L4.82135913,9.63482494 C4.82135913,9.63482494 4.16566088,10.4564688 3.51078781,9.63482494 L0.141350307,5.4358543 C0.141350307,5.4358543 -0.232400398,4.88836839 0.235597311,4.52339407 C0.422472663,4.34006872 0.796223368,4.15840346 1.2650304,4.52339407 L1.26501454,4.52339407 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

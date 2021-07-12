@@ -1,0 +1,51 @@
+// locking
+.locking-container{
+  height: 100%;
+  width: 100%;
+  background-color: #3f4852;
+  position: relative;
+  .avatar{
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    .el-icon-user-solid{
+      font-size: 60px;
+      vertical-align: top;
+      line-height: 90px;
+    }
+  }
+  .login-bd{
+    width: 240px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    .form-item{
+      margin: 20px auto;
+      position: relative;
+      .input-box{
+
+      }
+      .el-input__inner{
+        background-color: rgba(255,255,255,1);
+        border: none;
+        border-radius: 6px;
+      }
+      .enter-btn{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: rgba(255,255,255,1);
+        color: #666;
+        border-radius:  0 4px 4px 0;
+        font-size: 16px;
+        padding: 6px 10px;
+        &:active, &:hover{
+          border-color: #DCDFE6;
+        }
+      }
+    }
+  }
+  
+}

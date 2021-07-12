@@ -1,0 +1,52 @@
+@import "./common.less";
+
+// 项目整体样式
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#app{
+  height: 100%;
+  //min-width: 870px;
+}
+
+ul,li{
+  list-style: none;
+}
+html, body{
+  -ms-overflow-style: scrollbar;
+}
+html{
+  overflow-y: auto !important;
+}
+/*
+body{
+  //min-width: 1262px;
+  font-size: 14px;
+  line-height: 1.2;
+  background-color: #f0f0f0;
+}
+*/
+
+/*table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}*/
+
+body, input, textarea, button{
+  //font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+}
+@-ms-viewport {
+  width: device-width;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}

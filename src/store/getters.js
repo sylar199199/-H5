@@ -1,0 +1,36 @@
+
+export const timeZone = state => state.timeZone
+export const timeDif = state => state.timeDif
+export const loginInfo = state => state.loginInfo
+export const entry = state => state.entry
+export const routerTags = state => state.routerTags
+export const isFull = state => state.isFull
+export const menuData = state => state.menuData
+export const fsMode = state => state.fsMode
+export const betList = state => state.betList
+export const oddsRange = state => state.oddsRange
+export const isLogin = state => state.isLogin
+export const triggerBalance = state => state.triggerBalance
+export const searchObj = state => state.searchObj
+export const systemMoney = state => state.systemMoney
+export const multipleMoney = state => state.multipleMoney
+export const couponList = state => state.couponList
+export const betCoupon = state => state.betCoupon
+export const availableCoupon = state => state.availableCoupon
+export const betTypeNum = state => state.betTypeNum
+export const editProfile = state => state.editProfile
+export const globalFlag = state => state.globalFlag
+export const msgData = state => state.msgData
+export const rebetTicket = state => state.rebetTicket
+export const ticketId = state => state.ticketId
+export const regObj = state => state.regObj
+export const lotteryCarStatus = state => state.lotteryCarStatus
+export const lotteryBetData = state => state.lotteryBetData
+export const accountId = state => state.accountId
+export const isAgent = state => Number(state.loginInfo.channelStatus) === 1
+export const agentInfo = state => state.agentInfo
+export const contentData = state => state.contentData
+export const platformName = state => state.platformName
+export const adKey = state => state.adKey
+export const sportLoad = state => state.sportLoad
+export const webIp = state => state.webIp
